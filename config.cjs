@@ -20,8 +20,8 @@ const config = {
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "public",
   PREFIX: process.env.PREFIX || "!",
-  OWNER_NAME: process.env.OWNER_NAME || "",
-  SUDO_NUMBER: process.env.OWNER_NUMBER || "",
+  OWNER_NAME: process.env.OWNER_NAME || "SESSION ID",
+  SUDO_NUMBER: process.env.OWNER_NUMBER || "+94717600633",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
