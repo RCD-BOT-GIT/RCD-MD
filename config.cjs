@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "RCD-MD&9BM7bB0w",
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true,
   STATUS_SEND_RAW_URL: process.env.STATUS_SEND_RAW_URL || "",
   AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : false,
@@ -21,7 +21,7 @@ const config = {
   MODE: process.env.MODE || "public",
   PREFIX: process.env.PREFIX || "!",
   OWNER_NAME: process.env.OWNER_NAME || "",
-  SUDO_NUMBER: process.env.OWNER_NUMBER || "",
+  SUDO_NUMBER: process.env.OWNER_NUMBER || "94768725104",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
